@@ -1,0 +1,27 @@
+[project]
+name = "coffer"
+version = "0.1.0"
+description = "Private personal finance and investment tracker that keeps every byte on your device"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "argon2-cffi>=25.1",
+    "cryptography>=46",
+    "pywebview>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9"]
+
+[project.gui-scripts]
+coffer = "coffer.desktop:main"
+
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["coffer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,33 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+
+# Interface
+ui/node_modules/
+ui/.svelte-kit/
+ui/build/
+
+# Vaults and local data: never commit these, not even encrypted
+.dev-data/
+*.coffer
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Private notes, kept out of git on purpose
+.private/
+*.local.*
+.claude/settings.local.json

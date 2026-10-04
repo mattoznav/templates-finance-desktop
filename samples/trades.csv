@@ -1,0 +1,5 @@
+date,symbol,side,quantity,price,fees
+2026-03-02,GEQ,buy,4.25,97.40,1.00
+2026-04-01,GEQ,buy,4.10,99.85,1.00
+2026-04-01,GBND,buy,2,50.95,0
+2026-06-15,GEQ,sell,1.5,104.20,1.00
