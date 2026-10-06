@@ -118,4 +118,8 @@ tests/
 
 All names in the demo data and samples (people, employers, shops, banks, brokers and instruments) are fictional, and demo prices are simulated. The interface uses system fonts and icons drawn for this project; there are no third-party images.
 
+## License
+
+The code is released under the [MIT License](LICENSE).
+
 Part of the [`templates`](https://github.com/mattoznav/templates) collection.
